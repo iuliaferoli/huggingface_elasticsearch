@@ -1,2 +1,4 @@
 elasticsearch
 datasets
+sentence_transformers
+eland
