@@ -2,10 +2,10 @@
 
 One of the benefits of new social media platforms focusing on principles like opensource and decentralization is that we're also getting more easily accessible data to play with.
 
-This project will explore one of [the newest Hugging Face datasets](https://huggingface.co/datasets/alpindale/two-million-bluesky-posts) of 2 million bluesky posts. With the use of elasticsearch and models from the HF hub we can build some interesting queries to take the pulse of the internet.
+This project will explore one of [the newest Hugging Face datasets](https://huggingface.co/datasets/alpindale/two-million-bluesky-posts) of 2 million bluesky posts. Bring in elasticsearch and some LLM models and we can build some interesting queries to take the pulse of the internet.
 
 Using [a sentiment analysis model](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment) we can classify posts into `negative`, `positive`, or `neutral`.
-Adding that to the rest of the classic search features like `filtering`, `scoring`, or `matching` lets us explore social activity in a comprehensice (and fun!) way.
+Adding that to the rest of the classic search features like `filtering`, `scoring`, or `matching` lets us explore social activity in a comprehensive (and fun!) way.
 
 Questions to look at:
 * What are trends regarding sentiment & posts? Do we get more negative or positive posts? 
